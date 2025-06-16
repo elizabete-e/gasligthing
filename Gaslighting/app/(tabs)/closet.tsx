@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
-const explore = () => {
+const closet = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Account</Text>
+      <Text style={styles.text}>Closet</Text>
     </View>
   )
 }
 
-export default explore
+export default closet
 
 const styles = StyleSheet.create({
   container: {
